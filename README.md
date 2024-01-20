@@ -1,4 +1,4 @@
-# Template: Frontend (Phaser 3)
+# Template: Frontend (Phaser 3) + TypeScript
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Deploy project to GitHub Pages](https://github.com/new-objects/template-frontend-phaser3/actions/workflows/deploy.yml/badge.svg)](https://github.com/new-objects/template-frontend-phaser3/actions/workflows/deploy.yml)
@@ -9,7 +9,7 @@
 
 - **[Phaser 3](https://phaser.io/)** for rendering 2D graphics
 - [Vite](https://vitejs.dev/) for bundling
-- [VanillaJS](http://vanilla-js.com/) (no framework)
+- [TypeScript](https://www.typescriptlang.org/)
 - [TailwindCSS](https://tailwindcss.com/) for styling
 - [PostCSS](https://postcss.org/) for CSS processing
 - [ESLint](https://eslint.org/) for linting
@@ -86,17 +86,17 @@ The following environment variables are used in this project:
     ├── src
     |   ├── js
     |   |   ├── scenes
-    │   |   |   ├── Game.js
-    │   |   ├── index.js
+    │   |   |   ├── Game.ts
+    │   |   ├── index.ts
 	  ├── index.html
     ├── package.json
 ```
 
-JavaScript files are intended for the `src\js` folder. `index.js` is the entry point referenced by `index.html`.
+JavaScript files are intended for the `src\js` folder. `index.ts` is the entry point referenced by `index.html`.
 
 Other than that there is no opinion on how you should structure your project.
 
-There is an example `Game.js` file that is placed inside a `scenes` folder to organize by type or elsewhere to organize by function. For example, you can keep all files specific to the HelloWorld scene in a `hello-world` folder.
+There is an example `Game.ts` file that is placed inside a `scenes` folder to organize by type or elsewhere to organize by function. For example, you can keep all files specific to the HelloWorld scene in a `hello-world` folder.
 
 It is all up to you!
 
@@ -118,7 +118,7 @@ Example `public` structure:
 
 They can then be loaded by Phaser with `this.image.load('my-image', 'images/my-image.png')`.
 
-# ESLint
+# TypeScript ESLint
 
 This template uses a basic `eslint` set up for code linting to help you find and fix common problems in your JavaScript code.
 
