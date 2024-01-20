@@ -1,7 +1,7 @@
 {
-  "name": "template-frontend-phaser3",
+  "name": "template-frontend-phaser3-ts",
   "private": true,
-  "version": "0.0.4",
+  "version": "0.0.2",
   "type": "module",
   "scripts": {
     "dev": "node vite-dev.js",
@@ -19,9 +19,9 @@
   "devDependencies": {
     "@new-objects/prettier-config": "^0.0.2",
     "@typescript-eslint/eslint-plugin": "^5.40.0",
-		"@typescript-eslint/parser": "^5.40.0",
-		"eslint": "^8.25.0",
-		"typescript": "^4.6.4",
+    "@typescript-eslint/parser": "^5.40.0",
+    "eslint": "^8.25.0",
+    "typescript": "^4.6.4",
     "autoprefixer": "^10.4.17",
     "colors": "^1.4.0",
     "cross-env": "^7.0.3",
