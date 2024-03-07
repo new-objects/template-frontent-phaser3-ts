@@ -19,7 +19,7 @@
   "devDependencies": {
     "@new-objects/prettier-config": "^0.0.2",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
-    "@typescript-eslint/parser": "^6.21.0",
+    "@typescript-eslint/parser": "^7.1.1",
     "eslint": "^8.57.0",
     "typescript": "^5.4.2",
     "autoprefixer": "^10.4.18",
