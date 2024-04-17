@@ -1,5 +1,5 @@
 import Phaser from "phaser";
-import { PRELOAD_CONFIG } from "../config.ts";
+//import { PRELOAD_CONFIG } from "../config.ts";
 
 export default class Preloader extends Phaser.Scene {
   constructor() {
