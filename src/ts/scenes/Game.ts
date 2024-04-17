@@ -1,15 +1,11 @@
-import Phaser from 'phaser';
+import { AbstractGame } from "./AbstractGame.ts";
 
-export default class Game extends Phaser.Scene {
+export default class Game extends AbstractGame {
   constructor() {
-    super('game');
-  }
-
-  preload() {
-    this.load.image('sky', 'assets/sky.png');
+    super("Game");
   }
 
   create() {
-    this.add.image(400, 300, 'sky');
+    this.add.image(400, 300, "sky");
   }
 }
