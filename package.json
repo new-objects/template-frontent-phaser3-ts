@@ -24,7 +24,7 @@
     "preview": "npm run build && vite preview"
   },
   "dependencies": {
-    "phaser": "^3.80.1"
+    "phaser": "^3.85.1"
   },
   "devDependencies": {
     "@new-objects/prettier-config": "^0.0.2",
