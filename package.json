@@ -34,7 +34,7 @@
     "colors": "^1.4.0",
     "cross-env": "^7.0.3",
     "eslint": "^8.57.1",
-    "gh-pages": "^6.1.1",
+    "gh-pages": "^6.2.0",
     "husky": "^8.0.0",
     "postcss": "^8.4.47",
     "qrcode": "^1.5.4",
